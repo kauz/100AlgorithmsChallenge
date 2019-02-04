@@ -15,7 +15,7 @@ digitDegree(n) = 1.
 1 + 0 + 0 = 1.
 - For n = 91, the output should be
 digitDegree(n) = 2.
-9 + 1 = 10 -> 1 + 0 = 1.
+9 + 1 = 10 -> 1 + 0 = 2.
 
 **Hints**
 -   toString()
