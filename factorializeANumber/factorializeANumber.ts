@@ -1,19 +1,10 @@
 function factorializeANumber(num: number): number {
-    let sequence: number[] = [];
-    let counter = 1;
-
-    while (true) {
-        if (counter > Math.abs(num)) {
-            break;
-        } else {
-            sequence.push(counter);
-            counter++;
-        }
+    let factorial = 1;
+    for (let i = 1; i <= Math.abs(num); i++) {
+        factorial *= i;
     }
-
-    // console.log(sequence.reduce((a, b) => `${a} ${b}`, `${num}! =`));
-    return sequence.reduce((a, b) => a * b, 1);
+    return factorial;
 }
 
-console.log(factorializeANumber(-5));
+console.log(factorializeANumber(5));
 console.log(factorializeANumber(10));
