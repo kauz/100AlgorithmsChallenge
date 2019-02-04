@@ -1,4 +1,4 @@
-### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
+********### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ##### Algorithm Challenge Available At [CodeFights](https://codefights.com/company-challenges/uber/4c3qzzQg8Zg9AfLKH)
 ---
