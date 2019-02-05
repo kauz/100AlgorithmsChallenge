@@ -1,5 +1,7 @@
 function isTandemRepeat(inputString: string): boolean {
-    return inputString.substr(0 ,inputString.length / 2) === inputString.substr(inputString.length / 2);
+    return inputString.length % 2 === 0
+            ? inputString.substr(0, inputString.length / 2) === inputString.substr(inputString.length / 2)
+            : false;
 }
 
 console.log(isTandemRepeat('tandemtandem'));
