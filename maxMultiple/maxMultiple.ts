@@ -1,5 +1,4 @@
 function maxMultiple(divisor: number, bound: number): number  {
-
   // 1st solution
 
   // let n = divisor;
