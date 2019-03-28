@@ -1,5 +1,5 @@
 function seekAndDestroy(arr1: number[], arr2: number[]): number[] {
-   
+   return arr1.filter(n => !arr2.includes(n));
 }
 
 console.log(seekAndDestroy([3, 5, 1, 2, 2], [2, 3, 5]));
